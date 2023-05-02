@@ -1,0 +1,28 @@
+/* regole generali  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+#contenitore > .square {
+    background-color: #1389b2;
+    width: calc(10% - 20px);
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
