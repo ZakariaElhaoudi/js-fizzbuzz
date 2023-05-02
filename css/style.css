@@ -33,13 +33,13 @@ h1 {
 }
 
 #contenitore > .fizz {
-    background-color: #0cd6a1;
+    background-color:#0cd6a1;
 }
 
 #contenitore > .fizzbuzz {
-    background-color: #0cd6a1;
+    background-color: #f0466f;
 }
 
 #contenitore > .buzz {
-    background-color: #f0466f;
+    background-color: #ffd166;
 }
